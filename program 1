@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta content="noindex, nofollow" name="robots">
+<meta content="Report" name="Description" />
+<meta content="Report" name="abstract" />
+<meta content="PUP" name="author" />
+<meta content="Polytechnic University of the Philippines" name="copyright" />
+<meta content="Higher Education" name="category" />
+<meta content="" name="timestamp" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+ <title>PUP OSRFAE</title>
+
+	<link href="https://cdn.pup.edu.ph/img/ico/favicon.ico" rel="icon" type="image/x-icon" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="https://survey.pup.edu.ph/osrfae/assets/adminlte/dist/css/adminlte.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/toastr/toastr.min.css">
+	<link rel="stylesheet" href="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/jquery/jquery.min.js"></script>
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/toastr/toastr.min.js"></script>
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/datatables/jquery.dataTables.min.js"></script>
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+	
+	<script src="https://survey.pup.edu.ph/osrfae/assets/adminlte/dist/js/adminlte.min.js"></script>
+	
+	<link href="https://survey.pup.edu.ph/osrfae/assets/datepicker/css/datepicker.css" rel="stylesheet" type="text/css">
+	<script src="https://survey.pup.edu.ph/osrfae/assets/datepicker/js/bootstrap-datepicker.js"></script>
+	<style>
+		.chkbox
+		{
+		  /* Double-sized Checkboxes */
+		  -ms-transform: scale(1.5); /* IE */
+		  -moz-transform: scale(1.5); /* FF */
+		  -webkit-transform: scale(1.5); /* Safari and Chrome */
+		  -o-transform: scale(1.5); /* Opera */
+		  transform: scale(1.5);
+		  padding: 10px;
+		}
+	</style>
+</head>
+<body class="hold-transition sidebar-mini layout-navbar-fixed">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand  navbar-dark navbar-info">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+		<li class="nav-item">
+			<a href="https://survey.pup.edu.ph/osrfae/" class="nav-link">Sign Out <i class="fas fa-sign-out-alt"></i></a>        </li>
+    </ul>
+  </nav>
+
+  <aside class="main-sidebar  sidebar-dark-info elevation-4">
+    <!-- Brand Logo -->
+    <a href="#" class="brand-link  text-center">
+      <span class="brand-text font-weight-light">PUP OSRFAE</span>
+    </a>
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="https://survey.pup.edu.ph/osrfae/assets/images/noPhotoAvailable.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Elmer Angelo Halili</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+		<nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+			<li class="nav-item">
+				<a href="https://survey.pup.edu.ph/osrfae/app/register" class="nav-link " title="This module allows you to register your desired services before transacting"> <i class="far fa-building"></i> <p>Service Request <span class="right badge"><i class="far fa-question-circle"></i></span></p></a>			</li>
+			<li class="nav-item">
+				<a href="https://survey.pup.edu.ph/osrfae/app/clients" class="nav-link "  title="This module allows you to view all clients that requested services"> <i class="fas fa-users"></i> <p>Clients <span class="right badge"><i class="far fa-question-circle"></i></span></p></p></a>			</li>
+			<li class="nav-item">
+				<a href="https://survey.pup.edu.ph/osrfae/app/survey" class="nav-link " title="This module allows you to view all css you need to answer"> <i class="fas fa-tasks"></i> <p>Survey <span class="right badge"><i class="far fa-question-circle"></i></span></p></a>			</li>
+			<li class="nav-item has-treeview ">
+				<a href="#" class="nav-link ">
+					<i class="far fa-list-alt"></i>
+					<p>
+						Reports
+						<i class="right fas fa-angle-left"></i>
+					</p>
+				</a>
+				<ul class="nav nav-treeview">
+					<li class="nav-item">
+						<a href="https://survey.pup.edu.ph/osrfae/rpt/srvcs" class="nav-link "> <i class="far fa-circle nav-icon"></i> <p>Services</p></a>					</li>
+					<li class="nav-item">
+											</li>
+				</ul>
+			</li>
+				
+			<li class="nav-item">
+				<a href="https://survey.pup.edu.ph/osrfae/assets/manual/usersmanual.pdf" target="_BLANK" class="nav-link"><i class="far fa-file-pdf"></i> User's Manual</a>
+			</li>		
+
+        </ul>
+		</nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <div class="content-wrapper">
+
+	<section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-12">
+            <h1>Welcome to PUP Online Service Request for Faculty and Administrative Employees</h1>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+	<section class="content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+				
+					<div class="callout callout-info">
+					  <h5><i class="fas fa-info"></i> Note:</h5>
+					  If you have any questions or concerns, please email us at <span class="text-primary">idsa@pup.edu.ph</span>
+					</div>
+
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container-fluid -->
+	</section> </div><!-- /.content-wrapper -->
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 2.0.0
+    </div>
+        <strong>2020-2021 <a class="aterms" href="https://www.pup.edu.ph/" target="_BLANK">Polytechnic University of the Philippines</a>  | <a class="aterms"  href="https://www.pup.edu.ph/terms" target="_BLANK">Terms of Use</a> | <a class="aterms"  href="https://www.pup.edu.ph/privacy" target="_BLANK">Privacy Statement</a>.</strong> All rights reserved.
+ 
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+  </aside>
+
+</div>
+
+
+
+
+
+<script>
+
+
+
+	$(function() 
+	{
+
+		$("#chkall").click(function(){
+			$('input:checkbox').not(this).prop('checked', this.checked);
+		});
+		
+		$('.txtcalendar').datepicker({
+				format: 'yyyy-mm-dd',
+				autoclose: true,
+				changeMonth: true,
+				changeYear: true,
+				
+		});
+
+		function transsuccess() 
+		{
+			toastr.success('Process Complete');
+		};
+		
+		function transwarning() 
+		{
+			toastr.warning('');
+		};
+		
+		function transerror() 
+		{
+			toastr.options.fadeOut = 5000;
+			toastr.error('');
+			
+
+		};
+		
+		
+		
+		
+			
+	});
+	
+	 $(document).on("click", ".buttonclick", function (event) 
+	 {
+			
+		var temp= confirm("Are you sure?\n\n Click OK Button to proceed. Otherwise, Click Cancel Button");
+		if (!temp)
+		{
+			return false;
+		}
+		$('#processingmodal').modal('show');
+	});
+
+</script>
+	<div id="processingmodal" class="modal fade">
+		<div class="modal-dialog modal-m">
+			<div class="modal-content">
+				<div class="modal-header"><h3 style="margin:0;">Processing</h3></div>
+				<div class="modal-body">
+					<div class="progress progress-striped active" style="margin-bottom:0;"><div class="progress-bar" style="width: 100%"></div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+
+</html>
+
